@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+.page ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-bottom: 5px solid orange;
+   margin: 0px;
+  
+
+}
+.page a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.page li:hover{
+    background-color: orangered;
+    padding: 5px;
+   
+
+}
+.page li{
+    text-transform: uppercase;
+   list-style: none;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+.map1 {
+display: flex;
+justify-content: space-between;
+border-radius: 20px;
+margin: 20px;
+padding: 20px;
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 80px;
+}
+

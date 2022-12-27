@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+ 
+}
+
+.Navigation ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-bottom: 5px solid orange;
+    margin: 0px;
+
+}
+.Navigation a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.Navigation li:hover{
+    background-color: orangered;
+    padding: 5px;
+   
+
+}
+.Navigation li{
+    text-transform: uppercase;
+   list-style: none;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+.footer .end{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;  
+}
+

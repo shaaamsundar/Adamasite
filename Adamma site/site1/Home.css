@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+.Linkpage a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Linkpage ul{
+display: flex;
+justify-content: space-around;
+background-color: black;
+padding-top: 20px;
+padding-right: 10px;
+padding-bottom: 20px;
+padding-left: 10px;
+border-bottom: 5px solid orange;
+margin: 0px;
+}
+
+.Linkpage li {
+  color: whitesmoke;
+  list-style: none;
+}
+
+.Linkpage li:hover{
+   background-color: orange;
+   padding: 5px;;
+
+}
+.Content {
+display: flex;
+padding-top: 20px;
+padding-right:10px;
+padding-bottom:20px;
+padding-left: 10px;
+justify-content: space-around;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 80px;
+}
+.button{
+    color: aliceblue;
+    background:orangered;
+}
